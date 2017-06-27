@@ -13,5 +13,9 @@ class Node
     def child_by_value(val)
         @children.detect{|c| c.value == val}
     end
+
+    def leaf?
+        self.children.size == 0
+    end
     
 end

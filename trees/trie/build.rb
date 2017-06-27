@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'node.rb'
 
 def build_trie(patterns)
@@ -18,5 +17,3 @@ def build_trie(patterns)
     end
     return root
 end
-
-Pry.start
