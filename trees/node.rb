@@ -25,4 +25,5 @@ def make_simple
     return root
 end
 
+puts # take care of that stupid next line issue
 Pry.start
