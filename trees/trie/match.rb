@@ -2,7 +2,7 @@
 def prefixTrieMatching(text, trie)
     position = 0
     result = ""
-    symbol = text[position]
+    symbol = text[0]
     v = trie
     while true
         if v.leaf? # we have the last item
